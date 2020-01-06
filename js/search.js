@@ -44,7 +44,7 @@ $(document).ready(function(){
 
         var query = 'site:twitter.com inurl:lists -inurl:members -inurl:subscribers inurl:'+tag+'&num='+pageNum;
         
-        var serpStack = 'http://api.serpstack.com/search?access_key='+serpKey+'&page=1&query='+query;
+        var serpStack = 'https://api.serpstack.com/search?access_key='+serpKey+'&page=1&query='+query;
         
         var result_holder = $(".results-holder");
         result_holder.html('<div class="load-more"><div>');
