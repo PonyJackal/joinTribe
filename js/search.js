@@ -149,7 +149,7 @@ function loadMore(tag){
 
     var query = 'site:twitter.com inurl:lists -inurl:members -inurl:subscribers inurl:'+tag+'&num='+pageNum;
         
-    var serpStack = 'http://api.serpstack.com/search?access_key='+serpKey+'&page='+page+'&query='+query;
+    var serpStack = 'https://api.serpstack.com/search?access_key='+serpKey+'&page='+page+'&query='+query;
 
     var load_more = $(".load-more");
     load_more.html('<i class="fa fa-spinner fa-spin fa-3x"></i>');
