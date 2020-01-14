@@ -110,7 +110,7 @@ $(document).ready(function(){
                                     '" class="list-link">'+result.url+'</a><p class="list-description">'+description+
                                     '</p><div ms-hide="download-gate" class="premium-div"><a onClick="memberDetails(\''+result.url+'\')" class="download-cta w-button">Download List</a></div>'+
                                     '<div ms-hide-element="true" class="free-div"><img src="images/icons8-error-64.png" width="32" alt="" class="warning">'+
-                                    '<div>You need to be on the premium plan to download this list. <a href="join.html" class="color-link">Join now</a></div>'+
+                                    '<div>You need to be on the premium plan to download this list. <a href="join" class="color-link">Join now</a></div>'+
                                     '</div></div></div>';
 
                                 load_more.before(result_html);
@@ -196,7 +196,7 @@ function loadMore(tag){
                     '" class="list-link">'+result.url+'</a><p class="list-description">'+description+
                     '</p><div ms-hide="download-gate" class="premium-div"><a onClick="memberDetails(\''+result.url+'\')" class="download-cta w-button">Download List</a></div>'+
                     '<div ms-hide-element="true" class="free-div"><img src="images/icons8-error-64.png" width="32" alt="" class="warning">'+
-                    '<div>You need to be on the premium plan to download this list. <a href="join.html" class="color-link">Join now</a></div>'+
+                    '<div>You need to be on the premium plan to download this list. <a href="join" class="color-link">Join now</a></div>'+
                     '</div></div></div>';
                     
                     load_more.before(result_html);

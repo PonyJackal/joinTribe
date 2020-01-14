@@ -7,7 +7,7 @@ $(document).ready(function(){
             // alert("please fill the require field");
         }
         else{
-            window.location.href = "./search.html"+"?tag="+tag;
+            window.location.href = "./search"+"?tag="+tag;
         }
     });
 
@@ -18,7 +18,7 @@ $(document).ready(function(){
             // alert("please fill the require field");
         }
         else{
-            window.location.href = "./search.html"+"?tag="+tag;
+            window.location.href = "./search"+"?tag="+tag;
         }
     });
 });
