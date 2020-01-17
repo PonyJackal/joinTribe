@@ -22,6 +22,15 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
   <!--  Memberstack  -->
   <script src="https://api.memberstack.io/static/memberstack.js?webflow" data-memberstack-id="b74dd467e50b92e9bd4dccc3d37e80de"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156463910-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-156463910-1');
+    </script>
 </head>
 <body>
   <div data-collapse="medium" data-animation="over-left" data-duration="400" class="nav v2 w-nav">
@@ -43,7 +52,7 @@
     <div class="flex-section">
       <div class="left-side">
         <div class="text-holder v2">
-          <h1 class="h1">Find lists &amp; build targeted Twitter ad campaigns</h1>
+          <h1 class="h1">Create more effective Twitter ads in 5 mins</h1>
           <div class="subhead-hero">Twitter&#x27;s default targeting is bad. We enable you to search for Twitter lists, save them as .csv files and upload to Twitter for hyper-targeted ads.</div>
           <div class="search-block top w-form">
             <form id="wf-form-Search" name="wf-form-Search" data-name="Search" redirect="/search" data-redirect="/search" class="search-form"><input type="text" class="search-field w-input" maxlength="256" name="Search" data-name="Search" placeholder="e.g. San Francisco Startups" id="Search" required=""><input type="submit" id="searchTop"  value="Search" data-wait="Searching" class="search-cta w-button"></form>
