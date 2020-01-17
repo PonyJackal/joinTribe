@@ -14,6 +14,7 @@ $(document).ready(function(){
     var tag = "";
     if(getAllUrlParams(window.location.href).tag){
         tag = getAllUrlParams(window.location.href).tag;
+        tag = tag.replace(/%20/g," ");
     }
     if(tag != "" && tag!='undefined'){
         $("input[type='text']").val(tag);
